@@ -1,0 +1,5 @@
+input()
+set_a = set(map(int, input().split(' ')))
+input()
+set_b = set(map(int, input().split(' ')))
+print(len(set_a.intersection(set_b)))
